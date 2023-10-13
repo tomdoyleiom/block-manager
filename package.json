@@ -1,0 +1,20 @@
+{
+  "name": "blockmanager",
+  "version": "0.0.1",
+  "description": "A package for managing react components ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "tom.doyle@gamingmechanics.com",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@apollo/client": "^3.8.5",
+    "react": "^18.2.0",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.28",
+    "@types/showdown": "^2.0.2"
+  }
+}
