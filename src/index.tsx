@@ -3,9 +3,17 @@ import {
   IBlockManagerProps,
   IBlockComponent,
   IBlockRegistryOption,
-} from "./BlockManager";
+} from "./types";
 
-const BlockManager: React.FC<IBlockManagerProps> = ({ blocks, registry }) => {
+const BlockManager: React.FC<IBlockManagerProps> = ({
+  blocks,
+  registry,
+  options,
+}) => {
+  if (options) {
+    // todo: remove this in the future.
+    console.log(options);
+  }
   // console.log(blocks)
   const getBlockComponent = (
     block: IBlockComponent,
