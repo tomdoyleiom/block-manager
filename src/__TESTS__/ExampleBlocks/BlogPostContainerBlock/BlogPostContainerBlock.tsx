@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { IBlockRegistryOption } from "../../../BlockManager";
+import { IBlockRegistryOption } from "../../../types";
 import { gql, useLazyQuery } from "@apollo/client";
 
 type BlogPost = {

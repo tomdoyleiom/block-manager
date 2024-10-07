@@ -2,7 +2,7 @@ import { HeaderHeroBlockOptions } from "./ExampleBlocks/HeaderHeroBlock/HeaderHe
 import { HeroContainerBlockOptions } from "./ExampleBlocks/HeroContainerBlock/HeroContainerBlock";
 import { TextBlockOptions } from "./ExampleBlocks/TextBlock";
 import { BlogPostContainerBlockOptions } from "./ExampleBlocks/BlogPostContainerBlock/BlogPostContainerBlock";
-import { IBlockRegistryOption } from "../BlockManager";
+import { IBlockRegistryOption } from "../types";
 
 // end of imports
 

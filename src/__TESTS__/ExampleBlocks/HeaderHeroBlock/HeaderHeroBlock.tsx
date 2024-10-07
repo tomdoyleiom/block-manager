@@ -1,4 +1,4 @@
-import { IBlockRegistryOption } from "../../../BlockManager";
+import { IBlockRegistryOption } from "../../../types";
 import CmsContent from "../CmsContent/CmsContent";
 import React from "react";
 

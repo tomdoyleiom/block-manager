@@ -10,7 +10,12 @@ export interface IBlockRegistryOption {
   cols?: number;
 }
 
-interface IBlockManagerProps {
+export interface IBlockOptions {
+  transformer?: "umbraco" | "strapi" | "hygraph";
+}
+
+export interface IBlockManagerProps {
   blocks: IBlockComponent[];
   registry: IBlockRegistryOption[];
+  options?: IBlockOptions;
 }
